@@ -13,7 +13,7 @@ built a system that identifies high risk space debris and calculates how to deor
 - calculates deorbit time using plasma propulsion (0.2N hall thruster, Isp 2000s)
 - powered by solar panels — zero combustion, no harmful emissions
 
-## example
+## ISS(example)
 
 ```
 object: ISS (ZARYA)
@@ -31,11 +31,11 @@ deorbit time: 1703.1 days
 
 ## data sources
 
-- space-track.org → TLE, SATCAT, conjunction, decay, boxscore
-- ESA DISCOS → physical properties (mass, shape, cross section)
+- space-track.org → TLE, SATCAT, conjunction, decay, boxscore( boxscore wasn't in use)
+- ESA DISCOS for physical properties (mass, shape, cross section, wridth, etc)
 - 66,727 objects in final merged dataset
 
-## project structure
+## how the projectt looks
 
 ```
 data/
@@ -71,7 +71,7 @@ models/
 └── decay_features.pkl
 ```
 
-## ml models
+## ml models(for calculating risk and decay for satellites)
 
 **collision risk classifier**
 
