@@ -13,7 +13,7 @@ built a system that identifies high risk space debris and calculates how to deor
 - calculates deorbit time using plasma propulsion (0.2N hall thruster, Isp 2000s)
 - powered by solar panels — zero combustion, no harmful emissions
 
-## example output
+## example
 
 ```
 object: ISS (ZARYA)

@@ -1,0 +1,6 @@
+data/
+*.json
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+notebooks/discos.ipynb
