@@ -7,7 +7,7 @@ built a system that identifies high risk space debris and calculates how to deor
 - fetches real orbital data from space-track.org and ESA DISCOS APIs
 - propagates 66,000+ objects using SGP4 to get current positions
 - predicts collision risk (high/medium/low) using random forest — 95% accuracy
-- predicts decay risk — 94% accuracy
+- predicts decay risk — 95% accuracy
 - calculates delta-V needed to deorbit each object
 - estimates xenon expellant needed for hall thruster deorbit
 - calculates deorbit time using plasma propulsion (0.2N hall thruster, Isp 2000s)
@@ -19,21 +19,21 @@ built a system that identifies high risk space debris and calculates how to deor
 object: ISS (ZARYA)
 norad id: 25544
 type: PAYLOAD
-altitude: 423.3 km
+altitude: 427.3 km
 
 collision risk: MEDIUM
 decay risk: ELEVATED
 
-delta-v to deorbit: 0.0642 km/s
-xenon expellant needed: 1474.889 kg
-deorbit time: 1671.9 days
+delta-v to deorbit: 0.0654 km/s
+xenon expellant needed: 1502.503 kg
+deorbit time: 1703.1 days
 ```
 
 ## data sources
 
 - space-track.org → TLE, SATCAT, conjunction, decay, boxscore
 - ESA DISCOS → physical properties (mass, shape, cross section)
-- 66,666 objects in final merged dataset
+- 66,727 objects in final merged dataset
 
 ## project structure
 
