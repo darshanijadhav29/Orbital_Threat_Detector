@@ -83,7 +83,7 @@ models/
 
 - categories: imminent, elevated, moderate, stable
 - model: random forest (100 trees, class balanced)
-- accuracy: 94%
+- accuracy: 95%
 
 ## propulsion analysis
 
@@ -103,8 +103,8 @@ for each object calculates:
 ## quick start
 
 ```bash
-git clone https://github.com/darshanijadhav29/space-debris-detector 
-cd space-debris-detector
+git clone https://github.com/darshanijadhav29/Orbital_Threat_Detector 
+cd Orbital_Threat_Detector
 pip install pandas numpy matplotlib seaborn scikit-learn sgp4 joblib
 
 # train models
