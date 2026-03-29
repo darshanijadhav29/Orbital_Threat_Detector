@@ -31,9 +31,9 @@ deorbit time: 1703.1 days
 
 ## data sources
 
-- space-track.org → TLE, SATCAT, conjunction, decay, boxscore( boxscore wasn't in use)
+- space-track.org → TLE, SATCAT, conjunction, decay, boxscore( boxscore wasn't in use -just for satellire information)
 - ESA DISCOS for physical properties (mass, shape, cross section, wridth, etc)
-- 66,727 objects in final merged dataset
+- 66,727 objects in ML(final) erged dataset
 
 ## how the projectt looks
 
@@ -60,6 +60,7 @@ notebooks/
 src/
 ├── sgp4_propagate.py
 ├── deltav.py
+├── plots
 ├── expellant.py
 ├── deorbit_time.py
 ├── train.py
