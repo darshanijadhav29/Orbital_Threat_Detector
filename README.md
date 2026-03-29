@@ -6,12 +6,12 @@ built a system that identifies high risk space debris and calculates how to deor
 
 - fetches real orbital data from space-track.org and ESA DISCOS APIs
 - propagates 66,000+ objects using SGP4 to get current positions
-- predicts collision risk (high/medium/low) using random forest — 95% accuracy
-- predicts decay risk — 95% accuracy
+- predicts collision risk (high/medium/low) using random forest [95% accuracy]
+- predicts decay risk [95% accuracy]
 - calculates delta-V needed to deorbit each object
 - estimates xenon expellant needed for hall thruster deorbit
 - calculates deorbit time using plasma propulsion (0.2N hall thruster, Isp 2000s)
-- powered by solar panels — zero combustion, no harmful emissions
+- powered by solar panels with zero combustion and no harmful emissions
 
 ## ISS(example)
 
@@ -118,8 +118,8 @@ you need a space-track.org account to get data.
 
 ## findings
 
-- 66,666 objects tracked across VLEO, LEO, MEO and GEO
-- 19,517 objects classified as IMMINENT decay risk
-- ISS needs only 0.0642 km/s delta-V to deorbit
-- GEO objects need up to 1.48 km/s delta-V
+- 66,727 objects tracked across VLEO, LEO, MEO and GEO
+- 15,497 objects classified as IMMINENT decay risk
+- ISS needs only 0.137 km/s delta-V to deorbit
+- GEO objects need up to 1.478 km/s delta-V
 - hall thruster can deorbit small LEO debris in under 100 days
