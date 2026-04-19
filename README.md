@@ -1,4 +1,4 @@
-# # space debris risk assessment and deorbit planning system
+# # space debris and deorbit planning system
 
 built a system that identifies high risk space debris and calculates how to deorbit them using plasma propulsion.
 
